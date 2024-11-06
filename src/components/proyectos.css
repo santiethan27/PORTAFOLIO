@@ -1,0 +1,101 @@
+.myprojects {
+    color: white;
+}
+
+.myprojects h2 {
+    margin: 8px;
+    text-align: center;
+}
+
+.myprojects p {
+    margin: 16px;
+    text-align: center;
+}
+
+.myprojects p span {
+    color: #4dbcc0
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 16px;
+}
+
+.project a {
+    text-decoration: none;
+    width: 50%;
+    transform: translate(50%, -50%);
+    padding: 4px 8px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #4dbcc0;
+    color: white;
+}
+
+.project a:hover {
+    opacity: 0.8;
+    background-color: #ffffff;
+    color: #4dbcc0;
+}
+
+.project {
+    position: relative;
+    border-radius: 5%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project .description {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    transition: all ease 0.5s;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.project:hover img {
+    opacity: 0.1;
+    z-index: 1;
+}
+
+.project:hover .description {
+    opacity: 1;
+    z-index: 2;
+}
+
+.tecnologias span {
+    padding: 0 5px;
+    outline: 1px solid white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 480px) {
+    .projects {
+        grid-template-columns: 1fr;
+    }
+}

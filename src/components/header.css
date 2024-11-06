@@ -1,0 +1,48 @@
+.mypresentation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    background-color: #091d36;
+    color: white;
+}
+
+.myname {
+    font-size: 24px;
+}
+
+.mypicture {
+    border-radius: 100%;
+    width: 200px;
+    outline: 1px solid white;
+    padding: 2px;
+}
+
+.networks {
+    margin: 24px;
+}
+
+.networks div {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.networks a {
+    text-decoration: none;
+    font-size: 24px;
+    margin: 8px;
+    color: white;
+}
+
+.networks a:hover {
+    color: #4dbcc0
+}
+
+.motto {
+    margin: 16px 0px;
+}
+
+.rol span {
+    color: #4dbcc0;
+}

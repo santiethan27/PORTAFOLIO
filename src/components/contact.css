@@ -1,0 +1,20 @@
+.mycontact-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #091d36;
+    color: white;
+    border: 1px solid white;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.mycontact-main hr {
+    margin: 16px 0px;
+    width: 20%;
+}
+
+.mycontact-main .contact {
+    padding: 16px;
+}
