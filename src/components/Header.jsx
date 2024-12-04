@@ -12,7 +12,7 @@ const Header = () => {
                 <p className="rol"><span>FullStack</span> Developer</p>
                 <div><a href="https://www.linkedin.com/in/santiagoestradadev/"><FaLinkedin /></a><a href="https://github.com/santiethan27"><FaGithub /></a></div>
             </article>
-            <img className="mypicture" src="/mypicture.jpeg" alt="Santiago Estrada" />
+            <img className="mypicture" src="/mypicture.jpg" alt="Santiago Estrada" />
         </section>
     )
 }
